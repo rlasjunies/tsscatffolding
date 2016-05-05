@@ -1,0 +1,36 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+t r",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "alt+t x",
+        "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "workbench.action.zoomOut",
+        "when": "editorTextFocus"
+    },
+   {
+       "key": "ctrl+numpad_subtract",
+       "command":"editor.fold",
+       "when": "editorFocus"
+   },
+   {
+       "key": "ctrl+numpad_add",
+       "command":"editor.unfold",
+       "when": "editorFocus"
+   },
+   {
+       "key": "ctrl+numpad_multiply",
+       "command": "editor.unfoldAll",
+       "when": "editorFocus"
+   },
+   {
+       "key": "ctrl+numpad_divide",
+       "command": "editor.foldAll",
+       "when": "editorTextFocus"
+   }
+]

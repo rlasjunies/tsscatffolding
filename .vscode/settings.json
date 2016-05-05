@@ -1,0 +1,22 @@
+{
+	"editor.renderWhitespace": true,
+	"files.trimTrailingWhitespace": false,
+	"editor.tabSize": 4,
+	// "editor.wrappingColumn": 140,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/*.js": {
+			"when": "$(basename).ts"
+		},
+		"**/*.js.map": {
+			"when": "$(basename)"
+		}
+	},
+	"explorer.workingFiles.maxVisible": 0,
+	"explorer.workingFiles.dynamicHeight": false, // Migrated from previous "File | Auto Save" setting:
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "Hasklig",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 12
+}
