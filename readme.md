@@ -1,3 +1,13 @@
+#Basic TSScafolding
+This project propose a simple scalfolding project to be used with vscode
+
+#Compile the project
+ctrl-shift+B
+
+#Debug
+F5
+
+
 # H1
 ## H2
 ### H3
